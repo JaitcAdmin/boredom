@@ -171,7 +171,7 @@ def attack(event):
         x, y = event.x // SQ, event.y // SQ
         if mines[x][y] == -1:
             c.create_rectangle(0, 0, SIZE * SQ, SIZE * SQ, fill="red")
-            c.create_text(int(SIZE * SQ / 2), int(SIZE * SQ / 4), text="You is died",
+            c.create_text(int(SIZE * SQ / 2), int(SIZE * SQ / 4), text="You are died",
                           font="Arial " + str(int(SQ / 1.5)))
 
             exit(1)

@@ -146,7 +146,7 @@ def zero(x, y):
             print_text(x - 1, y + 1)
 
 
-def recursion(x, y):
+def r(x, y):
     if check(x, y) == 0:
         zero(x, y)
     else:
